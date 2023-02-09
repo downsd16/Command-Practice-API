@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "command_practice_api": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7018",
+      "launchBrowser": false
+    }
+  }
+}
