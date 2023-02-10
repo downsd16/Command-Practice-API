@@ -33,7 +33,7 @@
 
 ![project diagram](<GITHUB ASSET HREF>?raw=true)
 
-This API uses Azure Cache for Redis, CosmosDB NoSQL, and the <a href="https://www.nuget.org/packages/Microsoft.Azure.Cosmos">.NET Azure CosmosDB package</a> to store a leaderboard for a Command Practice gamified learning tool. The cache-aside pattern is used for scalability and throughput improvements.
+This API uses Azure Cache for Redis, CosmosDB NoSQL, and the <a href="https://www.nuget.org/packages/Microsoft.Azure.Cosmos">.NET Azure CosmosDB package</a> to store a leaderboard for a gamified CLI learning tool. The cache-aside pattern is used for scalability and throughput improvements. The REST API is called to either read data or add/update data in the database. 
 
 Features:
 - Redis Cache for scalability/performance
