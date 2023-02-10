@@ -33,7 +33,7 @@
 
 ![project diagram](<GITHUB ASSET HREF>?raw=true)
 
-This API uses a Redis Cache sorted set to store a leaderboard for a Command Practice gamified learning tool. The cache-aside pattern is used for scalability and throughput improvements.
+This API uses Azure Cache for Redis, CosmosDB NoSQL, and the <a href="https://www.nuget.org/packages/Microsoft.Azure.Cosmos">.NET Azure CosmosDB package</a> to store a leaderboard for a Command Practice gamified learning tool. The cache-aside pattern is used for scalability and throughput improvements.
 
 Features:
 - Redis Cache for scalability/performance
@@ -74,8 +74,7 @@ To get a local copy up and running follow these simple example steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Configure the desired level of Function call (Anon, Function, Private) and call from resource according to the chosen level. 
-Best used with a single table utilizing partition keys for logical and throughput performance.
+Configure the desired level of Function call (Anon, Function, Private) and call from resource according to the chosen level.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
