@@ -36,12 +36,11 @@
 This API uses a Redis Cache sorted set to store a leaderboard for a Command Practice gamified learning tool. The cache-aside pattern is used for scalability and throughput improvements.
 
 Features:
-<ul>
-  <li>Use Redis Cache for scalability/performance</li>
-  <li>CosmosDB NoSQL for point of origin storage</li>
-  <li><a href="https://learn.microsoft.com/en-us/azure/architecture/patterns/cache-aside">Cache-Aside</a> pattern implementation</li>
-  <li>CI/CD with GitHub Actions (default yaml included)</li>
-</ul>
+- Redis Cache for scalability/performance
+- High scores stored in redis sorted set
+- CosmosDB NoSQL for point of origin storage
+- <a href="https://learn.microsoft.com/en-us/azure/architecture/patterns/cache-aside">Cache-Aside</a> pattern implementation
+- CI/CD with GitHub Actions (default yaml included)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
