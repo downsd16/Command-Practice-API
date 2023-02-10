@@ -100,21 +100,8 @@ Some improvements I would make to the API
 <!-- CONTACT -->
 ## Contact
 
-Devin Downs - downsd16@gmail.com
-
-Project Link: [https://github.com/downsd16/hire-downs-api](https://github.com/downsd16/hire-downs-api)
+- [LinkedIn](https://www.linkedin.com/in/devindowns5/)
+- [Personal Website](https://hire-downs.dev)
+- [Project Link](https://github.com/downsd16/hire-downs.dev)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-
-[contributors-shield]: https://img.shields.io/github/contributors/downsd16/hire-downs-api.svg?style=for-the-badge
-[contributors-url]: https://github.com/downsd16/hire-downs-api/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/downsd16/hire-downs-api.svg?style=for-the-badge
-[forks-url]: https://github.com/downsd16/hire-downs-api/network/members
-[license-shield]: https://img.shields.io/github/license/downsd16/hire-downs-api.svg?style=for-the-badge
-[license-url]: https://github.com/downsd16/hire-downs-api/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
