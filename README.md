@@ -89,8 +89,6 @@ Some improvements I would make to the API
 - Content upload front end (i.e. Sanity.io)
 - Scale in/out rules using App Insights Metrics
     - Currently uses consumption for cost savings
-- Move project images to blob CDN
-    - Project images are served from frontend storage
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
