@@ -19,7 +19,7 @@ namespace hire_downs.command
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)] HttpRequest req)
         {
-            CosmosClient cosmosClient = new CosmosClient("AccountEndpoint=https://test-command-leaderboard-db.documents.azure.com:443/;AccountKey=7ZmUrloyL5gi2A4cfleHDH3WfKB5g4C73mLCpeMfHG8aiPWq9HG5laFq9PF00kxBi4b3DqeuC4TsACDbViWnGQ==;");
+            CosmosClient cosmosClient = new CosmosClient("AccountEndpoint=https://test-command-leaderboard-db.documents.azure.com:443/;AccountKey=<KEY>;");
             Database db = await cosmosClient.CreateDatabaseIfNotExistsAsync("command-leaderboard");
             Container container = await db.CreateContainerIfNotExistsAsync(
                 id: "data",
